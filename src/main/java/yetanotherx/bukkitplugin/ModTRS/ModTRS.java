@@ -42,6 +42,10 @@ import yetanotherx.bukkitplugin.ModTRS.listener.ModTRSListener;
 public class ModTRS extends JavaPlugin {
 
     public static final ModTRSLogger log = new ModTRSLogger();
+
+    public static Object getPlugin() {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
     private CommandHandler commandHandler;
     private ModTRSListener listener;
     private ModTRSTableHandler tableHandler;
